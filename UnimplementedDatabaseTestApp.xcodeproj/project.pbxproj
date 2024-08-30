@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		91DE69E62C80F95D0079E940 /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 91DE69E52C80F95D0079E940 /* GRDB */; };
+		91DE69E92C80F99B0079E940 /* UnimplementedGRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 91DE69E82C80F99B0079E940 /* UnimplementedGRDB */; };
+		91DE69EC2C80F9DA0079E940 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 91DE69EB2C80F9DA0079E940 /* Dependencies */; };
+		91DE69EE2C80F9DA0079E940 /* DependenciesMacros in Frameworks */ = {isa = PBXBuildFile; productRef = 91DE69ED2C80F9DA0079E940 /* DependenciesMacros */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		91DE69D02C80F8F10079E940 /* DatabaseTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatabaseTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DE69D02C80F8F10079E940 /* UnimplementedDatabaseTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnimplementedDatabaseTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +30,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91DE69EC2C80F9DA0079E940 /* Dependencies in Frameworks */,
+				91DE69E92C80F99B0079E940 /* UnimplementedGRDB in Frameworks */,
+				91DE69EE2C80F9DA0079E940 /* DependenciesMacros in Frameworks */,
+				91DE69E62C80F95D0079E940 /* GRDB in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,7 +51,7 @@
 		91DE69D12C80F8F10079E940 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				91DE69D02C80F8F10079E940 /* DatabaseTestApp.app */,
+				91DE69D02C80F8F10079E940 /* UnimplementedDatabaseTestApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +59,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		91DE69CF2C80F8F10079E940 /* DatabaseTestApp */ = {
+		91DE69CF2C80F8F10079E940 /* UnimplementedDatabaseTestApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91DE69DE2C80F8F30079E940 /* Build configuration list for PBXNativeTarget "DatabaseTestApp" */;
+			buildConfigurationList = 91DE69DE2C80F8F30079E940 /* Build configuration list for PBXNativeTarget "UnimplementedDatabaseTestApp" */;
 			buildPhases = (
 				91DE69CC2C80F8F10079E940 /* Sources */,
 				91DE69CD2C80F8F10079E940 /* Frameworks */,
@@ -63,11 +74,15 @@
 			fileSystemSynchronizedGroups = (
 				91DE69D22C80F8F10079E940 /* DatabaseTestApp */,
 			);
-			name = DatabaseTestApp;
+			name = UnimplementedDatabaseTestApp;
 			packageProductDependencies = (
+				91DE69E52C80F95D0079E940 /* GRDB */,
+				91DE69E82C80F99B0079E940 /* UnimplementedGRDB */,
+				91DE69EB2C80F9DA0079E940 /* Dependencies */,
+				91DE69ED2C80F9DA0079E940 /* DependenciesMacros */,
 			);
 			productName = DatabaseTestApp;
-			productReference = 91DE69D02C80F8F10079E940 /* DatabaseTestApp.app */;
+			productReference = 91DE69D02C80F8F10079E940 /* UnimplementedDatabaseTestApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 91DE69CB2C80F8F10079E940 /* Build configuration list for PBXProject "DatabaseTestApp" */;
+			buildConfigurationList = 91DE69CB2C80F8F10079E940 /* Build configuration list for PBXProject "UnimplementedDatabaseTestApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -94,12 +109,17 @@
 			);
 			mainGroup = 91DE69C72C80F8F10079E940;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				91DE69E42C80F95D0079E940 /* XCRemoteSwiftPackageReference "GRDB" */,
+				91DE69E72C80F99B0079E940 /* XCRemoteSwiftPackageReference "UnimplementedGRDB" */,
+				91DE69EA2C80F9DA0079E940 /* XCRemoteSwiftPackageReference "swift-dependencies" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 91DE69D12C80F8F10079E940 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				91DE69CF2C80F8F10079E940 /* DatabaseTestApp */,
+				91DE69CF2C80F8F10079E940 /* UnimplementedDatabaseTestApp */,
 			);
 		};
 /* End PBXProject section */
@@ -305,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		91DE69CB2C80F8F10079E940 /* Build configuration list for PBXProject "DatabaseTestApp" */ = {
+		91DE69CB2C80F8F10079E940 /* Build configuration list for PBXProject "UnimplementedDatabaseTestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91DE69DC2C80F8F30079E940 /* Debug */,
@@ -314,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91DE69DE2C80F8F30079E940 /* Build configuration list for PBXNativeTarget "DatabaseTestApp" */ = {
+		91DE69DE2C80F8F30079E940 /* Build configuration list for PBXNativeTarget "UnimplementedDatabaseTestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91DE69DF2C80F8F30079E940 /* Debug */,
@@ -324,6 +344,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		91DE69E42C80F95D0079E940 /* XCRemoteSwiftPackageReference "GRDB" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.29.2;
+			};
+		};
+		91DE69E72C80F99B0079E940 /* XCRemoteSwiftPackageReference "UnimplementedGRDB" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rhysm94/UnimplementedGRDB";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		91DE69EA2C80F9DA0079E940 /* XCRemoteSwiftPackageReference "swift-dependencies" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-dependencies";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		91DE69E52C80F95D0079E940 /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91DE69E42C80F95D0079E940 /* XCRemoteSwiftPackageReference "GRDB" */;
+			productName = GRDB;
+		};
+		91DE69E82C80F99B0079E940 /* UnimplementedGRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91DE69E72C80F99B0079E940 /* XCRemoteSwiftPackageReference "UnimplementedGRDB" */;
+			productName = UnimplementedGRDB;
+		};
+		91DE69EB2C80F9DA0079E940 /* Dependencies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91DE69EA2C80F9DA0079E940 /* XCRemoteSwiftPackageReference "swift-dependencies" */;
+			productName = Dependencies;
+		};
+		91DE69ED2C80F9DA0079E940 /* DependenciesMacros */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91DE69EA2C80F9DA0079E940 /* XCRemoteSwiftPackageReference "swift-dependencies" */;
+			productName = DependenciesMacros;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 91DE69C82C80F8F10079E940 /* Project object */;
 }
